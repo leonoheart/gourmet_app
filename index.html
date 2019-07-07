@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Gourmet</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+</head>
+
+<body>
+    <!-- the header -->
+    <header>
+        <div id="header">
+            <!-- header logo -->
+            <a id="logo" href="./index.html">Gourmet</a>
+
+            <!-- header navigation -->
+            <nav id="header-navigation">
+                <ul>                   
+                    <li>
+                        <form  method="post" action="save.php">
+                            <input type="text" placeholder="choose what you want"/>
+                            <input type="submit" value="search" />
+                        </form>
+                    </li>                            
+                    <li><a href="#">HOME</a></li>            
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">LOGIN IN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- slider section -->
+    <main>
+        <div id="content-wrapper">
+            <div id="foreground"></div>
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="img/shrimp.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="img/kid.png"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100"
+                            src="img/dessert.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-container">
+                <div class="paph-wrapper">
+                    <div id="text">
+                        <h2 class="fadeText">a big meal</h2>
+                        <i class="icon-line"></i>
+                        <p class="fadeText">Can you image how delicious it is!</p>
+                    </div>
+                    <div class="small-path"></div>
+                    <div class="path"></div>
+                </div>
+                <div class="paph-wrapper1">
+                    <div id="text">
+                        <h2 class="fadeText">an goog idea</h2>
+                        <i class="icon-line"></i>
+                        <p class="fadeText">The idea in the meal make a sunny!</p>
+                    </div>
+                    <div class="small-path"></div>
+                    <div class="path"></div>
+                </div>
+                <div class="paph-wrapper2">
+                    <div id="text">
+                        <h2 class="fadeText">dessert</h2>
+                        <i class="icon-line"></i>
+                        <p class="fadeText">...for the one who loves sweet food.</p>
+                    </div>
+                    <div class="small-path"></div>
+                    <div class="path"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- the footer -->
+    <footer>
+        <div id = footer>
+            <ul>
+                <li><a href="#" alt="About">About</a></li>
+                <li><a href="#" alt="Contact US">Contact Us</a></li>
+            </ul>
+        </div>  
+    </footer>
+    <script></script>
+</body>
+
+</html>

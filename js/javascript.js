@@ -1,5 +1,6 @@
 window.onload = function () {
     // Menu moving downward
+    
     TweenMax.set("#foreground", { alpha: 1 }, 0);
     TweenMax.from(".path", 1, { x: 50, scale: 1.2 }, 0);
     TweenMax.from(".small-path", 1, { scale: 2.4, x: 150 }, 0);

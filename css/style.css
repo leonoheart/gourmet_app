@@ -24,19 +24,15 @@ header {
     color: #B00000;
     text-align: center;
     padding: 0;
-    width: 70%;
+    width: 80%;
     margin:0 auto;
 }
 
 header #logo {
-    display: block;
-    width: 120px;
-    height: 40px;
-    font-size:25px;
     line-height: 2;
     font-weight: bolder;
     color: #B00000;
-    width: 10%;
+    width: 20%;
     display: inline-block;
     text-decoration: none;
     text-align: left;
@@ -48,7 +44,7 @@ header #logo {
 /* main navigation */
 
 #header-navigation {
-    width: 80%;
+    width: 68%;
     display: inline-block;
     text-align: right
 }
@@ -98,7 +94,7 @@ main {
     margin: auto;
 }
 #content-wrapper {
-    width: 70%;
+    width: 80%;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -253,28 +249,46 @@ main {
 /* footer */
 
 footer {
-    width: 70%;
+
+}
+#footer {
+    width: 80%;
     text-align: center;
+    margin: 10px auto;
 }
 
 #footer ul {
-    width: 40%;
-    text-align: right;
     list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+
 }
 
 #footer ul li {
     display: inline-block;
-    color: #FFCC00;
+    padding: 0 20px 0 0;
+
 }
 
 #footer ul li a {
     text-decoration: none;
     transition: 0.3s ease all;
     border-radius: 3px;
+    color: black;
     
 }
 #footer ul li a:hover {
    background: #A8A8A8;
     
+}
+
+
+/* responsive */
+/* mobile styling */
+
+@media screen and (max-width: 768px) {
+    header #logo {
+        width: 100%;
+    }
 }
